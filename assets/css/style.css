@@ -1661,6 +1661,32 @@ textarea.form-input::-webkit-resizer { display: none; }
     margin-right: 10px;
 }
 
+.telegram-button {
+  display: flex;
+  align-items: center;
+  background-color: #229ED9;
+  color: #ffffff;
+  text-decoration: none;
+  padding: 10px 20px;
+  margin-top: 20px;
+  border-radius: 50px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  font-size: 16px;
+  font-weight: bold;
+  transition: background-color 0.3s, transform 0.3s;
+}
+
+.telegram-button:hover {
+  background-color: #208bbc;
+  transform: scale(1.05);
+}
+
+.telegram-icon {
+  width: 24px;
+  height: 24px;
+  margin-right: 10px;
+}
+
   .input-wrapper { grid-template-columns: 1fr 1fr; }
 
   .form-btn {
